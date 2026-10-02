@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biography | Lejla Pleho</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div id="cur"></div>
+  <div id="curR"></div>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Lejla Pleho</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="radovi.html">Works</a></li>
+      <li><a href="biografija.html" class="active">Biography</a></li>
+      <li><a href="usluge.html">Services</a></li>
+      <li><a href="#kontakt">Contact</a></li>
+    </ul>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="radovi.html">Works</a>
+    <a href="biografija.html">Biography</a>
+    <a href="usluge.html">Services</a>
+    <a href="#kontakt">Contact</a>
+  </div>
+
+  <div class="sec-divider" style="margin-top: 80px;"><span>About the Artist</span></div>
+
+  <section id="biografija">
+    <div class="bio-img">
+      <img src="images/angel.png" alt="Lejla Pleho" />
+    </div>
+    <div>
+      <span class="sec-label">Biography</span>
+      <h2 class="sec-title" style="margin-bottom: 28px;">The Story Behind the <em>Canvas</em></h2>
+
+      <div class="bio-tabs">
+        <button class="bio-tab on" onclick="bioTab('uvod')">About</button>
+        <button class="bio-tab" onclick="bioTab('obrazovanje')">Education</button>
+        <button class="bio-tab" onclick="bioTab('stil')">Style &amp; Concept</button>
+        <button class="bio-tab" onclick="bioTab('nagrade')">Exhibitions &amp; Awards</button>
+      </div>
+
+      <div class="bio-panel on" id="bp-uvod">
+        <p class="bio-p">Lejla Pleho is a Bosnian visual artist, born in Sarajevo in 1994.
+        Graduated at Traditional Arts High School in Sarajevo in 2012 as Textile and Design Art Tehchinican, after that she enroled in Sarajevo Academy of Fine Arts Sarajevo where she graduated in 2024 at Print Making department, specialised in Etching and Screen printig.
+        </p>
+        <p class="bio-p">She has had numerous exhibitions, among which she highlights</p>
+
+        <p class="bio-p">She has participated in numerous art colonies and projects, among which she highlights</p>
+
+        <p class="bio-p">Inspiration for her works come from human internal sturugles, psych, humans constant need to find balance and place for itself in world. Her works find root inspiration in exploration of human, border between concious and subconcsu is often visible in her works. </p>
+
+        <p class="bio-p">She utilizes any accessible medium to transmit her messages and one that can convey her feelings in best way possible in given moment. </p>
+
+        <div class="bio-stats">
+          <div><span class="bs-num">16+</span><span class="bs-lbl">Years of Experience</span></div>
+          <div><span class="bs-num">1000+</span><span class="bs-lbl">Original Works</span></div>
+          <div><span class="bs-num">∞</span><span class="bs-lbl">Passion for Art</span></div>
+        </div>
+      </div>
+
+      <div class="bio-panel" id="bp-obrazovanje">
+        <ul class="tl">
+          <li><span class="tl-year">2024</span><div class="tl-body"><p class="tl-title">Bachelor of Fine Arts - Printmaking</p><p class="tl-sub">Academy of Fine Arts · Sarajevo</p></div></li>
+          <li><span class="tl-year">2012</span><div class="tl-body"><p class="tl-title">Fashion design</p><p class="tl-sub">Secondary School of Traditional Arts · Sarajevo</p></div></li>
+        </ul>
+      </div>
+
+      <div class="bio-panel" id="bp-stil">
+        <p class="bio-p">Her artistic practice is rooted in traditional printmaking, with a particular focus on etching techniques that demand patience, precision, and an intimate dialogue with the material. Rather than treating the printing plate as a passive surface, she approaches it as a living medium—one that records emotion through every engraved line and every acid bite. The expressive potential of etching allows her to translate invisible psychological states into tactile visual forms. Balancing technical discipline with emotional intensity, her work reveals a fascination with contrast: darkness and light, fragility and strength, silence and expression. For Lejla Pleho, printmaking is not only a technique, but a language through which the unseen dimensions of human experience become visible.</p>
+        <p class="bio-quote">"Line is my language. Through it I say what words cannot."</p>
+      </div>
+
+      <div class="bio-panel" id="bp-nagrade">
+        <ul class="tl">
+          <li><span class="tl-year">20XX</span><div class="tl-body"><p class="tl-title">Exhibition Name <span class="award-badge">Award</span></p><p class="tl-sub">Institution · City</p></div></li>
+          <li><span class="tl-year">20XX</span><div class="tl-body"><p class="tl-title">Group Exhibition</p><p class="tl-sub">Gallery · City</p></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <p class="k-sub">Interested in a work?</p>
+    <h2 class="k-title">Get in <em>touch</em></h2>
+    <br><br>
+    <a href="mailto:lejla@example.com" class="k-mail">lejla@example.com</a>
+    <div class="k-links">
+      <a href="#" class="k-link">Instagram</a>
+      <a href="#" class="k-link">Reddit</a>
+      <a href="#" class="k-link">PayPal</a>
+    </div>
+    <footer>
+      <span class="fc">© 2026 Lejla Pleho. All rights reserved.</span>
+      <span style="font-family:'Josefin Slab',serif; font-style:italic; font-size:.95rem; color:var(--muted);">Lejla Pleho</span>
+      <span class="fc">Bosnia &amp; Herzegovina</span>
+    </footer>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

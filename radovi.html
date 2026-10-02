@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Works | Lejla Pleho</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div id="cur"></div>
+  <div id="curR"></div>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Lejla Pleho</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="radovi.html" class="active">Works</a></li>
+      <li><a href="biografija.html">Biography</a></li>
+      <li><a href="usluge.html">Services</a></li>
+      <li><a href="#kontakt">Contact</a></li>
+    </ul>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="radovi.html">Works</a>
+    <a href="biografija.html">Biography</a>
+    <a href="usluge.html">Services</a>
+    <a href="#kontakt">Contact</a>
+  </div>
+
+  <div class="sec-divider" style="margin-top: 80px;"><span>Portfolio</span></div>
+
+  <section id="galerija">
+    <div class="gal-head">
+      <div>
+        <span class="sec-label">Gallery</span>
+        <h2 class="sec-title">Portfolio <em>works</em></h2>
+      </div>
+      <div class="filters">
+        <button class="fb on" onclick="fg('sve')">All</button>
+        <button class="fb" onclick="fg('grafika')">Prints</button>
+        <button class="fb" onclick="fg('slike')">Paintings</button>
+        <button class="fb" onclick="fg('aktovi')">Figure Studies</button>
+        <button class="fb" onclick="fg('instalacije')">Installations</button>
+        <button class="fb" onclick="fg('crtezi')">Drawings</button>
+      </div>
+    </div>
+
+    <div class="gal-grid" id="gg">
+      <div class="gal-loading" id="gal-loading">Loading works</div>
+      <div class="gal-error" id="gal-error">Error loading gallery.</div>
+      <div class="gal-empty" id="ge">No works in this category.</div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <p class="k-sub">Interested in a work?</p>
+    <h2 class="k-title">Get in <em>touch</em></h2>
+    <br><br>
+    <a href="mailto:lejla@example.com" class="k-mail">lejla@example.com</a>
+    <div class="k-links">
+      <a href="#" class="k-link">Instagram</a>
+      <a href="#" class="k-link">Reddit</a>
+      <a href="#" class="k-link">PayPal</a>
+    </div>
+    <footer>
+      <span class="fc">© 2026 Lejla Pleho. All rights reserved.</span>
+      <span style="font-family:'Josefin Slab',serif; font-style:italic; font-size:.95rem; color:var(--muted);">Lejla Pleho</span>
+      <span class="fc">Bosnia &amp; Herzegovina</span>
+    </footer>
+  </section>
+
+  <div class="lb" id="lb" onclick="cl()">
+    <button class="lb-close" onclick="event.stopPropagation(); cl()">&times;</button>
+    <button class="lb-arrow lb-prev" onclick="event.stopPropagation(); prevSlika()">‹</button>
+    <button class="lb-arrow lb-next" onclick="event.stopPropagation(); nextSlika()">›</button>
+    <img id="lbImg" src="" alt="" onclick="event.stopPropagation()" />
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

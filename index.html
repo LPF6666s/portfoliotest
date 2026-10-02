@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lejla Pleho | Artist</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGACIJA -->
+  <nav>
+    <a href="index.html" class="nav-logo">Lejla Pleho</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="radovi.html">Works</a></li>
+      <li><a href="biografija.html">Biography</a></li>
+      <li><a href="usluge.html">Services</a></li>
+      <li><a href="#kontakt">Contact</a></li>
+    </ul>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="radovi.html">Works</a>
+    <a href="biografija.html">Biography</a>
+    <a href="usluge.html">Services</a>
+    <a href="#kontakt">Contact</a>
+  </div>
+
+  <!-- ============================================================
+       HERO SEKCIJA
+       Lijevo: Anđeoska figura + Info
+       Desno: Slider sa 5 slika (bez overlaya)
+  ============================================================ -->
+  <section class="hero">
+    
+    <!-- LIJEVA STRANA -->
+    <div class="hero-left">
+      
+      <!-- GORE: Anđeoska figura -->
+      <div class="hero-figure">
+        <div class="figura-grid">
+          <!-- Red 1: Krilo | Glava | Krilo -->
+          <div class="fig-item fig-1" onclick="ol(0)"><img src="images/poliptih/1.jpg" alt="Krilo lijevo" /></div>
+          <div class="fig-item fig-2" onclick="ol(1)"><img src="images/poliptih/2.jpg" alt="Glava" /></div>
+          <div class="fig-item fig-3" onclick="ol(2)"><img src="images/poliptih/3.jpg" alt="Krilo desno" /></div>
+
+          <!-- Red 2: Ruka | Tijelo (gornji dio) | Krilo -->
+          <div class="fig-item fig-4" onclick="ol(3)"><img src="images/poliptih/4.jpg" alt="Lijeva ruka" /></div>
+          <div class="fig-item fig-5" onclick="ol(4)"><img src="images/poliptih/5.jpg" alt="Tijelo" /></div>
+          <div class="fig-item fig-6" onclick="ol(5)"><img src="images/poliptih/6.jpg" alt="Desna ruka" /></div>
+
+          <!-- Red 3: Krilo | Tijelo (donji dio, isti kadar) | Krilo -->
+          <div class="fig-item fig-7" onclick="ol(6)"><img src="images/poliptih/7.jpg" alt="Krilo lijevo donje" /></div>
+          <div class="fig-item fig-8" onclick="ol(7)"><img src="images/poliptih/8.jpg" alt="Krilo desno donje" /></div>
+
+          <!-- Red 4: Peraja -->
+          <div class="fig-item fig-9" onclick="ol(8)"><img src="images/poliptih/9.jpg" alt="Peraje lijevo" /></div>
+          <div class="fig-item fig-10" onclick="ol(9)"><img src="images/poliptih/10.jpg" alt="Peraje desno" /></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- DESNA STRANA: Gore bio + linkovi, dolje carousel -->
+    <div class="hero-right">
+
+      <!-- GORE: Kratko o umjetniku + linkovi -->
+      <div class="hero-intro">
+        <span class="hero-intro-label">About the artist</span>
+        <p class="hero-intro-text">
+          <span class="hero-intro-name">Lejla Pleho</span> is a visual artist working across painting, print, and installation,
+          drawn to themes of transformation, fragility, and the space between the human
+          and the divine.
+        </p>
+      </div>
+
+      <!-- DOLJE: Carousel sa 10 fotki -->
+      <div class="hero-carousel">
+
+        <div class="hero-carousel-track" id="heroCarouselTrack"></div>
+
+        <button class="hero-slide-arrow hero-slide-prev" onclick="heroPrevSlide()">‹</button>
+        <button class="hero-slide-arrow hero-slide-next" onclick="heroNextSlide()">›</button>
+
+        <div class="hero-slide-dots" id="heroSlideDots"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ============================================================
+       KONTAKT
+  ============================================================ -->
+  <section id="kontakt">
+    <p class="k-sub">Interested in a work?</p>
+    <h2 class="k-title">Get in <em>touch</em></h2>
+    <br><br>
+    <a href="mailto:lejla@example.com" class="k-mail">lejla@example.com</a>
+    <div class="k-links">
+      <a href="#" class="k-link">Instagram</a>
+      <a href="#" class="k-link">Reddit</a>
+      <a href="#" class="k-link">PayPal</a>
+    </div>
+    <footer>
+      <span class="fc">© 2026 Lejla Pleho. All rights reserved.</span>
+      <span style="font-family:'Josefin Slab',serif; font-style:italic; font-size:.95rem; color:var(--muted);">Lejla Pleho</span>
+      <span class="fc">Bosnia &amp; Herzegovina</span>
+    </footer>
+  </section>
+
+  <!-- LIGHTBOX (poliptih) -->
+  <div class="lb" id="lb" onclick="if(event.target===this) cl()">
+    <button class="lb-close" onclick="cl()">&times;</button>
+    <button class="lb-arrow lb-prev" onclick="prevSlika()">‹</button>
+    <img id="lbImg" src="" alt="" />
+    <button class="lb-arrow lb-next" onclick="nextSlika()">›</button>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>

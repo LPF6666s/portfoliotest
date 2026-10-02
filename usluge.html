@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Lejla Pleho</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div id="cur"></div>
+  <div id="curR"></div>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Lejla Pleho</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="radovi.html">Works</a></li>
+      <li><a href="biografija.html">Biography</a></li>
+      <li><a href="usluge.html" class="active">Services</a></li>
+      <li><a href="#kontakt">Contact</a></li>
+    </ul>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="radovi.html">Works</a>
+    <a href="biografija.html">Biography</a>
+    <a href="usluge.html">Services</a>
+    <a href="#kontakt">Contact</a>
+  </div>
+
+  <section id="usluge" style="margin-top: 80px;">
+    <span class="sec-label">Services</span>
+    <h2 class="sec-title">What I <em>Offer</em></h2>
+
+    <div class="srv-grid">
+      <div class="srv">
+        <span class="srv-n">01</span>
+        <h3 class="srv-t">Original Works</h3>
+        <p class="srv-d">Unique prints and painting in number of styles.</p>
+        <div class="srv-arr" onclick="srvToggle(this)">Learn more →</div>
+        <div class="srv-details">
+          <div class="srv-details-inner">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
+      <div class="srv">
+        <span class="srv-n">02</span>
+        <h3 class="srv-t">Commissioned Works</h3>
+        <p class="srv-d">Commissioned prints, paintings and other art form according to customer wishes and inputs.</p>
+        <div class="srv-arr" onclick="srvToggle(this)">Learn more →</div>
+        <div class="srv-details">
+          <div class="srv-details-inner">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+          </div>
+        </div>
+      </div>
+      <div class="srv">
+        <span class="srv-n">03</span>
+        <h3 class="srv-t">Prints &amp; Reproductions</h3>
+        <p class="srv-d">High quality reproductions of my works.</p>
+        <div class="srv-arr" onclick="srvToggle(this)">Learn more →</div>
+        <div class="srv-details">
+          <div class="srv-details-inner">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde
+            omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+            aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.
+          </div>
+        </div>
+      </div>
+      <div class="srv">
+        <span class="srv-n">04</span>
+        <h3 class="srv-t">Screen printing</h3>
+        <p class="srv-d">Screen printing services for bands, brands and organisations. Poster, clothes, textile and paper.</p>
+        <div class="srv-arr" onclick="srvToggle(this)">Learn more →</div>
+        <div class="srv-details">
+          <div class="srv-details-inner">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. At vero eos et accusamus et
+            iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+            corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <p class="k-sub">Interested in a work?</p>
+    <h2 class="k-title">Get in <em>touch</em></h2>
+    <br><br>
+    <a href="mailto:lejla@example.com" class="k-mail">lejla@example.com</a>
+    <div class="k-links">
+      <a href="#" class="k-link">Instagram</a>
+      <a href="#" class="k-link">Reddit</a>
+      <a href="#" class="k-link">PayPal</a>
+    </div>
+    <footer>
+      <span class="fc">© 2026 Lejla Pleho. All rights reserved.</span>
+      <span style="font-family:'Josefin Slab',serif; font-style:italic; font-size:.95rem; color:var(--muted);">Lejla Pleho</span>
+      <span class="fc">Bosnia &amp; Herzegovina</span>
+    </footer>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

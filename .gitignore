@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Backup files
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PHP files (ne treba vise)
+*.php
+setup.sh
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+desktop.ini
