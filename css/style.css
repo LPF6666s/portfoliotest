@@ -960,7 +960,7 @@ footer {
 }
 
 .hero-carousel-slide {
-  flex:     0 0 calc(100% / 3);
+  flex:     0 0 calc(100% / var(--hero-visible, 3));
   height:   100%;
   padding:  0 1px;
   box-sizing: border-box;
@@ -1027,6 +1027,14 @@ footer {
   transform:     scale(1.3);
 }
 
+.scroll-hint { display: none; }
+@media (max-width: 860px) { .scroll-hint { display: flex; } }
+
+@keyframes hintBounce {
+  0%, 100% { transform: translate(-50%, 0); }
+  50%      { transform: translate(-50%, 5px); }
+}
+
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(22px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -1042,8 +1050,55 @@ footer {
     height: auto;
   }
 
+  /* FIGURA JE PRIORITET: cijeli prvi ekran, figura uvijek stane cijela.
+     Omjer figure je ~1 : 1.42 (širina : visina), pa širinu ogranicimo visinom ekrana. */
   .hero-left {
-    height: 40vh;
+    position:       relative;
+    height:         auto;            /* visinu odredjuje figura - nema praznine */
+    padding-bottom: 28px;            /* mjesto za malu strelicu */
+    border-right:   none;
+  }
+
+  .hero-figure {
+    display:         flex;
+    justify-content: center;
+    align-items:     flex-start;
+    height:          auto;
+    padding:         8px 0 0;
+  }
+
+  /* sirina figure: puna sirina ekrana, ali nikad toliko da figura (omjer ~1:1.42)
+     ne bi bila visa od ekrana - tako se uvijek vidi cijela, bez skracivanja */
+  .figura-grid {
+    max-width: min(94%, calc((100vh - var(--nav-h) - 44px) / 1.42));
+    max-width: min(94%, calc((100svh - var(--nav-h) - 44px) / 1.42));
+  }
+
+  /* mala strelica dolje - vidi se samo dok ostatak stranice nije vidljiv */
+  .scroll-hint {
+    position:        absolute;
+    left:            50%;
+    bottom:          6px;
+    transform:       translateX(-50%);
+    width:           32px;
+    height:          32px;
+    display:         flex;
+    align-items:     center;
+    justify-content: center;
+    background:      transparent;
+    border:          none;
+    color:           var(--red);
+    font-size:       1.3rem;
+    cursor:          pointer;
+    z-index:         5;
+    opacity:         .85;
+    transition:      opacity .35s;
+    animation:       hintBounce 1.8s ease-in-out infinite;
+  }
+
+  .scroll-hint.hidden {
+    opacity:        0;
+    pointer-events: none;
   }
 
   .hero-right {
@@ -1059,18 +1114,34 @@ footer {
     max-width: none;
   }
 
+  /* flex:none je bitno - flex:1 (basis 0) je ranije skupljao carousel na ~120px */
   .hero-carousel {
-    height: 45vh;
+    flex:       none;
+    height:     55vh;
+    min-height: 340px;
   }
 
+  /* strelice: sredina lijevo/desno, ne preko tačkica */
   .hero-slide-arrow {
-    width:    36px;
-    height:   36px;
+    width:     36px;
+    height:    36px;
     font-size: 1rem;
+    top:       50%;
+    bottom:    auto;
+    transform: translateY(-50%);
   }
 
-  .hero-slide-prev { right: 65px; }
-  .hero-slide-next { right: 20px; }
+  .hero-slide-prev { left: 8px;  right: auto; }
+  .hero-slide-next { right: 8px; left: auto; }
+
+  /* tačkice: malo na tamnoj podlozi pri dnu */
+  .hero-slide-dots {
+    bottom:        12px;
+    padding:       6px 10px;
+    background:    rgba(0, 0, 0, 0.55);
+    border-radius: 12px;
+    gap:           8px;
+  }
 
   /* ==========================================================
      MOBILNI MENI (hamburger + overlay)

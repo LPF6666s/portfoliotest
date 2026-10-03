@@ -228,9 +228,57 @@
     "kat": "grafika"
   },
   {
-    "naziv": "Slika 1",
-    "putanja": "images/slike/thumbnails/Slika 1.webp",
-    "original": "images/slike/webp/Slika 1.webp",
+    "naziv": "Slika 01",
+    "putanja": "images/slike/thumbnails/Slika 01.webp",
+    "original": "images/slike/webp/Slika 01.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 02",
+    "putanja": "images/slike/thumbnails/Slika 02.webp",
+    "original": "images/slike/webp/Slika 02.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 03",
+    "putanja": "images/slike/thumbnails/Slika 03.webp",
+    "original": "images/slike/webp/Slika 03.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 04",
+    "putanja": "images/slike/thumbnails/Slika 04.webp",
+    "original": "images/slike/webp/Slika 04.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 05",
+    "putanja": "images/slike/thumbnails/Slika 05.webp",
+    "original": "images/slike/webp/Slika 05.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 06",
+    "putanja": "images/slike/thumbnails/Slika 06.webp",
+    "original": "images/slike/webp/Slika 06.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 07",
+    "putanja": "images/slike/thumbnails/Slika 07.webp",
+    "original": "images/slike/webp/Slika 07.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 08",
+    "putanja": "images/slike/thumbnails/Slika 08.webp",
+    "original": "images/slike/webp/Slika 08.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 09",
+    "putanja": "images/slike/thumbnails/Slika 09.webp",
+    "original": "images/slike/webp/Slika 09.webp",
     "kat": "slike"
   },
   {
@@ -294,12 +342,6 @@
     "kat": "slike"
   },
   {
-    "naziv": "Slika 2",
-    "putanja": "images/slike/thumbnails/Slika 2.webp",
-    "original": "images/slike/webp/Slika 2.webp",
-    "kat": "slike"
-  },
-  {
     "naziv": "Slika 20",
     "putanja": "images/slike/thumbnails/Slika 20.webp",
     "original": "images/slike/webp/Slika 20.webp",
@@ -357,12 +399,6 @@
     "naziv": "Slika 29",
     "putanja": "images/slike/thumbnails/Slika 29.webp",
     "original": "images/slike/webp/Slika 29.webp",
-    "kat": "slike"
-  },
-  {
-    "naziv": "Slika 3",
-    "putanja": "images/slike/thumbnails/Slika 3.webp",
-    "original": "images/slike/webp/Slika 3.webp",
     "kat": "slike"
   },
   {
@@ -426,12 +462,6 @@
     "kat": "slike"
   },
   {
-    "naziv": "Slika 4",
-    "putanja": "images/slike/thumbnails/Slika 4.webp",
-    "original": "images/slike/webp/Slika 4.webp",
-    "kat": "slike"
-  },
-  {
     "naziv": "Slika 40",
     "putanja": "images/slike/thumbnails/Slika 40.webp",
     "original": "images/slike/webp/Slika 40.webp",
@@ -468,33 +498,129 @@
     "kat": "slike"
   },
   {
-    "naziv": "Slika 5",
-    "putanja": "images/slike/thumbnails/Slika 5.webp",
-    "original": "images/slike/webp/Slika 5.webp",
+    "naziv": "Slika 46",
+    "putanja": "images/slike/thumbnails/Slika 46.webp",
+    "original": "images/slike/webp/Slika 46.webp",
     "kat": "slike"
   },
   {
-    "naziv": "Slika 6",
-    "putanja": "images/slike/thumbnails/Slika 6.webp",
-    "original": "images/slike/webp/Slika 6.webp",
+    "naziv": "Slika 47",
+    "putanja": "images/slike/thumbnails/Slika 47.webp",
+    "original": "images/slike/webp/Slika 47.webp",
     "kat": "slike"
   },
   {
-    "naziv": "Slika 7",
-    "putanja": "images/slike/thumbnails/Slika 7.webp",
-    "original": "images/slike/webp/Slika 7.webp",
+    "naziv": "Slika 48",
+    "putanja": "images/slike/thumbnails/Slika 48.webp",
+    "original": "images/slike/webp/Slika 48.webp",
     "kat": "slike"
   },
   {
-    "naziv": "Slika 8",
-    "putanja": "images/slike/thumbnails/Slika 8.webp",
-    "original": "images/slike/webp/Slika 8.webp",
+    "naziv": "Slika 49",
+    "putanja": "images/slike/thumbnails/Slika 49.webp",
+    "original": "images/slike/webp/Slika 49.webp",
     "kat": "slike"
   },
   {
-    "naziv": "Slika 9",
-    "putanja": "images/slike/thumbnails/Slika 9.webp",
-    "original": "images/slike/webp/Slika 9.webp",
+    "naziv": "Slika 50",
+    "putanja": "images/slike/thumbnails/Slika 50.webp",
+    "original": "images/slike/webp/Slika 50.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 51",
+    "putanja": "images/slike/thumbnails/Slika 51.webp",
+    "original": "images/slike/webp/Slika 51.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 52",
+    "putanja": "images/slike/thumbnails/Slika 52.webp",
+    "original": "images/slike/webp/Slika 52.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 53",
+    "putanja": "images/slike/thumbnails/Slika 53.webp",
+    "original": "images/slike/webp/Slika 53.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 54",
+    "putanja": "images/slike/thumbnails/Slika 54.webp",
+    "original": "images/slike/webp/Slika 54.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 55",
+    "putanja": "images/slike/thumbnails/Slika 55.webp",
+    "original": "images/slike/webp/Slika 55.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 56",
+    "putanja": "images/slike/thumbnails/Slika 56.webp",
+    "original": "images/slike/webp/Slika 56.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 57",
+    "putanja": "images/slike/thumbnails/Slika 57.webp",
+    "original": "images/slike/webp/Slika 57.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 58",
+    "putanja": "images/slike/thumbnails/Slika 58.webp",
+    "original": "images/slike/webp/Slika 58.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 59",
+    "putanja": "images/slike/thumbnails/Slika 59.webp",
+    "original": "images/slike/webp/Slika 59.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 60",
+    "putanja": "images/slike/thumbnails/Slika 60.webp",
+    "original": "images/slike/webp/Slika 60.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 61",
+    "putanja": "images/slike/thumbnails/Slika 61.webp",
+    "original": "images/slike/webp/Slika 61.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 62",
+    "putanja": "images/slike/thumbnails/Slika 62.webp",
+    "original": "images/slike/webp/Slika 62.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 63",
+    "putanja": "images/slike/thumbnails/Slika 63.webp",
+    "original": "images/slike/webp/Slika 63.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 64",
+    "putanja": "images/slike/thumbnails/Slika 64.webp",
+    "original": "images/slike/webp/Slika 64.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 65",
+    "putanja": "images/slike/thumbnails/Slika 65.webp",
+    "original": "images/slike/webp/Slika 65.webp",
+    "kat": "slike"
+  },
+  {
+    "naziv": "Slika 66",
+    "putanja": "images/slike/thumbnails/Slika 66.webp",
+    "original": "images/slike/webp/Slika 66.webp",
     "kat": "slike"
   },
   {
@@ -1333,890 +1459,890 @@
   },
   {
     "naziv": "Crtez 1",
-    "putanja": "images/crtezi/Crtez 1.jpg",
-    "original": "images/crtezi/Crtez 1.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 1.webp",
+    "original": "images/crtezi/webp/Crtez 1.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 10",
-    "putanja": "images/crtezi/Crtez 10.jpg",
-    "original": "images/crtezi/Crtez 10.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 10.webp",
+    "original": "images/crtezi/webp/Crtez 10.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 11",
-    "putanja": "images/crtezi/Crtez 11.jpg",
-    "original": "images/crtezi/Crtez 11.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 11.webp",
+    "original": "images/crtezi/webp/Crtez 11.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 12",
-    "putanja": "images/crtezi/Crtez 12.jpg",
-    "original": "images/crtezi/Crtez 12.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 12.webp",
+    "original": "images/crtezi/webp/Crtez 12.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 13",
-    "putanja": "images/crtezi/Crtez 13.jpg",
-    "original": "images/crtezi/Crtez 13.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 13.webp",
+    "original": "images/crtezi/webp/Crtez 13.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 14",
-    "putanja": "images/crtezi/Crtez 14.jpg",
-    "original": "images/crtezi/Crtez 14.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 14.webp",
+    "original": "images/crtezi/webp/Crtez 14.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 15",
-    "putanja": "images/crtezi/Crtez 15.jpg",
-    "original": "images/crtezi/Crtez 15.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 15.webp",
+    "original": "images/crtezi/webp/Crtez 15.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 16",
-    "putanja": "images/crtezi/Crtez 16.jpg",
-    "original": "images/crtezi/Crtez 16.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 16.webp",
+    "original": "images/crtezi/webp/Crtez 16.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 17",
-    "putanja": "images/crtezi/Crtez 17.jpg",
-    "original": "images/crtezi/Crtez 17.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 17.webp",
+    "original": "images/crtezi/webp/Crtez 17.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 18",
-    "putanja": "images/crtezi/Crtez 18.jpg",
-    "original": "images/crtezi/Crtez 18.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 18.webp",
+    "original": "images/crtezi/webp/Crtez 18.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 19",
-    "putanja": "images/crtezi/Crtez 19.jpg",
-    "original": "images/crtezi/Crtez 19.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 19.webp",
+    "original": "images/crtezi/webp/Crtez 19.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 2",
-    "putanja": "images/crtezi/Crtez 2.jpg",
-    "original": "images/crtezi/Crtez 2.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 2.webp",
+    "original": "images/crtezi/webp/Crtez 2.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 20",
-    "putanja": "images/crtezi/Crtez 20.jpg",
-    "original": "images/crtezi/Crtez 20.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 20.webp",
+    "original": "images/crtezi/webp/Crtez 20.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 21",
-    "putanja": "images/crtezi/Crtez 21.jpg",
-    "original": "images/crtezi/Crtez 21.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 21.webp",
+    "original": "images/crtezi/webp/Crtez 21.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 22",
-    "putanja": "images/crtezi/Crtez 22.jpg",
-    "original": "images/crtezi/Crtez 22.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 22.webp",
+    "original": "images/crtezi/webp/Crtez 22.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 23",
-    "putanja": "images/crtezi/Crtez 23.jpg",
-    "original": "images/crtezi/Crtez 23.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 23.webp",
+    "original": "images/crtezi/webp/Crtez 23.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 24",
-    "putanja": "images/crtezi/Crtez 24.jpg",
-    "original": "images/crtezi/Crtez 24.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 24.webp",
+    "original": "images/crtezi/webp/Crtez 24.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 25",
-    "putanja": "images/crtezi/Crtez 25.jpg",
-    "original": "images/crtezi/Crtez 25.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 25.webp",
+    "original": "images/crtezi/webp/Crtez 25.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 26",
-    "putanja": "images/crtezi/Crtez 26.jpg",
-    "original": "images/crtezi/Crtez 26.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 26.webp",
+    "original": "images/crtezi/webp/Crtez 26.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 27",
-    "putanja": "images/crtezi/Crtez 27.jpg",
-    "original": "images/crtezi/Crtez 27.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 27.webp",
+    "original": "images/crtezi/webp/Crtez 27.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 28",
-    "putanja": "images/crtezi/Crtez 28.jpg",
-    "original": "images/crtezi/Crtez 28.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 28.webp",
+    "original": "images/crtezi/webp/Crtez 28.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 29",
-    "putanja": "images/crtezi/Crtez 29.jpg",
-    "original": "images/crtezi/Crtez 29.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 29.webp",
+    "original": "images/crtezi/webp/Crtez 29.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 3",
-    "putanja": "images/crtezi/Crtez 3.jpg",
-    "original": "images/crtezi/Crtez 3.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 3.webp",
+    "original": "images/crtezi/webp/Crtez 3.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 30",
-    "putanja": "images/crtezi/Crtez 30.jpg",
-    "original": "images/crtezi/Crtez 30.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 30.webp",
+    "original": "images/crtezi/webp/Crtez 30.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 31",
-    "putanja": "images/crtezi/Crtez 31.jpg",
-    "original": "images/crtezi/Crtez 31.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 31.webp",
+    "original": "images/crtezi/webp/Crtez 31.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 32",
-    "putanja": "images/crtezi/Crtez 32.jpg",
-    "original": "images/crtezi/Crtez 32.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 32.webp",
+    "original": "images/crtezi/webp/Crtez 32.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 33",
-    "putanja": "images/crtezi/Crtez 33.jpg",
-    "original": "images/crtezi/Crtez 33.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 33.webp",
+    "original": "images/crtezi/webp/Crtez 33.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 34",
-    "putanja": "images/crtezi/Crtez 34.jpg",
-    "original": "images/crtezi/Crtez 34.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 34.webp",
+    "original": "images/crtezi/webp/Crtez 34.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 35",
-    "putanja": "images/crtezi/Crtez 35.jpg",
-    "original": "images/crtezi/Crtez 35.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 35.webp",
+    "original": "images/crtezi/webp/Crtez 35.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 36",
-    "putanja": "images/crtezi/Crtez 36.jpg",
-    "original": "images/crtezi/Crtez 36.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 36.webp",
+    "original": "images/crtezi/webp/Crtez 36.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 37",
-    "putanja": "images/crtezi/Crtez 37.jpg",
-    "original": "images/crtezi/Crtez 37.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 37.webp",
+    "original": "images/crtezi/webp/Crtez 37.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 38",
-    "putanja": "images/crtezi/Crtez 38.jpg",
-    "original": "images/crtezi/Crtez 38.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 38.webp",
+    "original": "images/crtezi/webp/Crtez 38.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 39",
-    "putanja": "images/crtezi/Crtez 39.jpg",
-    "original": "images/crtezi/Crtez 39.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 39.webp",
+    "original": "images/crtezi/webp/Crtez 39.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 4",
-    "putanja": "images/crtezi/Crtez 4.jpg",
-    "original": "images/crtezi/Crtez 4.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 4.webp",
+    "original": "images/crtezi/webp/Crtez 4.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 40",
-    "putanja": "images/crtezi/Crtez 40.jpg",
-    "original": "images/crtezi/Crtez 40.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 40.webp",
+    "original": "images/crtezi/webp/Crtez 40.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 41",
-    "putanja": "images/crtezi/Crtez 41.jpg",
-    "original": "images/crtezi/Crtez 41.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 41.webp",
+    "original": "images/crtezi/webp/Crtez 41.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 42",
-    "putanja": "images/crtezi/Crtez 42.jpg",
-    "original": "images/crtezi/Crtez 42.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 42.webp",
+    "original": "images/crtezi/webp/Crtez 42.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 43",
-    "putanja": "images/crtezi/Crtez 43.jpg",
-    "original": "images/crtezi/Crtez 43.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 43.webp",
+    "original": "images/crtezi/webp/Crtez 43.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 44",
-    "putanja": "images/crtezi/Crtez 44.jpg",
-    "original": "images/crtezi/Crtez 44.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 44.webp",
+    "original": "images/crtezi/webp/Crtez 44.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 45",
-    "putanja": "images/crtezi/Crtez 45.jpg",
-    "original": "images/crtezi/Crtez 45.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 45.webp",
+    "original": "images/crtezi/webp/Crtez 45.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 46",
-    "putanja": "images/crtezi/Crtez 46.jpg",
-    "original": "images/crtezi/Crtez 46.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 46.webp",
+    "original": "images/crtezi/webp/Crtez 46.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 47",
-    "putanja": "images/crtezi/Crtez 47.jpg",
-    "original": "images/crtezi/Crtez 47.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 47.webp",
+    "original": "images/crtezi/webp/Crtez 47.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 48",
-    "putanja": "images/crtezi/Crtez 48.jpg",
-    "original": "images/crtezi/Crtez 48.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 48.webp",
+    "original": "images/crtezi/webp/Crtez 48.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 49",
-    "putanja": "images/crtezi/Crtez 49.jpg",
-    "original": "images/crtezi/Crtez 49.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 49.webp",
+    "original": "images/crtezi/webp/Crtez 49.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 5",
-    "putanja": "images/crtezi/Crtez 5.jpg",
-    "original": "images/crtezi/Crtez 5.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 5.webp",
+    "original": "images/crtezi/webp/Crtez 5.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 50",
-    "putanja": "images/crtezi/Crtez 50.jpg",
-    "original": "images/crtezi/Crtez 50.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 50.webp",
+    "original": "images/crtezi/webp/Crtez 50.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 51",
-    "putanja": "images/crtezi/Crtez 51.jpg",
-    "original": "images/crtezi/Crtez 51.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 51.webp",
+    "original": "images/crtezi/webp/Crtez 51.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 52",
-    "putanja": "images/crtezi/Crtez 52.jpg",
-    "original": "images/crtezi/Crtez 52.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 52.webp",
+    "original": "images/crtezi/webp/Crtez 52.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 53",
-    "putanja": "images/crtezi/Crtez 53.jpg",
-    "original": "images/crtezi/Crtez 53.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 53.webp",
+    "original": "images/crtezi/webp/Crtez 53.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 54",
-    "putanja": "images/crtezi/Crtez 54.jpg",
-    "original": "images/crtezi/Crtez 54.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 54.webp",
+    "original": "images/crtezi/webp/Crtez 54.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 55",
-    "putanja": "images/crtezi/Crtez 55.jpg",
-    "original": "images/crtezi/Crtez 55.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 55.webp",
+    "original": "images/crtezi/webp/Crtez 55.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 56",
-    "putanja": "images/crtezi/Crtez 56.jpg",
-    "original": "images/crtezi/Crtez 56.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 56.webp",
+    "original": "images/crtezi/webp/Crtez 56.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 57",
-    "putanja": "images/crtezi/Crtez 57.jpg",
-    "original": "images/crtezi/Crtez 57.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 57.webp",
+    "original": "images/crtezi/webp/Crtez 57.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 58",
-    "putanja": "images/crtezi/Crtez 58.jpg",
-    "original": "images/crtezi/Crtez 58.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 58.webp",
+    "original": "images/crtezi/webp/Crtez 58.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 59",
-    "putanja": "images/crtezi/Crtez 59.jpg",
-    "original": "images/crtezi/Crtez 59.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 59.webp",
+    "original": "images/crtezi/webp/Crtez 59.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 6",
-    "putanja": "images/crtezi/Crtez 6.jpg",
-    "original": "images/crtezi/Crtez 6.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 6.webp",
+    "original": "images/crtezi/webp/Crtez 6.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 60",
-    "putanja": "images/crtezi/Crtez 60.jpg",
-    "original": "images/crtezi/Crtez 60.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 60.webp",
+    "original": "images/crtezi/webp/Crtez 60.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 61",
-    "putanja": "images/crtezi/Crtez 61.jpg",
-    "original": "images/crtezi/Crtez 61.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 61.webp",
+    "original": "images/crtezi/webp/Crtez 61.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 62",
-    "putanja": "images/crtezi/Crtez 62.jpg",
-    "original": "images/crtezi/Crtez 62.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 62.webp",
+    "original": "images/crtezi/webp/Crtez 62.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 63",
-    "putanja": "images/crtezi/Crtez 63.jpg",
-    "original": "images/crtezi/Crtez 63.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 63.webp",
+    "original": "images/crtezi/webp/Crtez 63.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 64",
-    "putanja": "images/crtezi/Crtez 64.jpg",
-    "original": "images/crtezi/Crtez 64.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 64.webp",
+    "original": "images/crtezi/webp/Crtez 64.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 65",
-    "putanja": "images/crtezi/Crtez 65.jpg",
-    "original": "images/crtezi/Crtez 65.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 65.webp",
+    "original": "images/crtezi/webp/Crtez 65.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 66",
-    "putanja": "images/crtezi/Crtez 66.jpg",
-    "original": "images/crtezi/Crtez 66.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 66.webp",
+    "original": "images/crtezi/webp/Crtez 66.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 67",
-    "putanja": "images/crtezi/Crtez 67.jpg",
-    "original": "images/crtezi/Crtez 67.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 67.webp",
+    "original": "images/crtezi/webp/Crtez 67.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 68",
-    "putanja": "images/crtezi/Crtez 68.jpg",
-    "original": "images/crtezi/Crtez 68.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 68.webp",
+    "original": "images/crtezi/webp/Crtez 68.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 69",
-    "putanja": "images/crtezi/Crtez 69.jpg",
-    "original": "images/crtezi/Crtez 69.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 69.webp",
+    "original": "images/crtezi/webp/Crtez 69.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 7",
-    "putanja": "images/crtezi/Crtez 7.jpg",
-    "original": "images/crtezi/Crtez 7.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 7.webp",
+    "original": "images/crtezi/webp/Crtez 7.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 70",
-    "putanja": "images/crtezi/Crtez 70.jpg",
-    "original": "images/crtezi/Crtez 70.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 70.webp",
+    "original": "images/crtezi/webp/Crtez 70.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 71",
-    "putanja": "images/crtezi/Crtez 71.jpg",
-    "original": "images/crtezi/Crtez 71.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 71.webp",
+    "original": "images/crtezi/webp/Crtez 71.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 72",
-    "putanja": "images/crtezi/Crtez 72.jpg",
-    "original": "images/crtezi/Crtez 72.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 72.webp",
+    "original": "images/crtezi/webp/Crtez 72.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 73",
-    "putanja": "images/crtezi/Crtez 73.jpg",
-    "original": "images/crtezi/Crtez 73.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 73.webp",
+    "original": "images/crtezi/webp/Crtez 73.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 74",
-    "putanja": "images/crtezi/Crtez 74.jpg",
-    "original": "images/crtezi/Crtez 74.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 74.webp",
+    "original": "images/crtezi/webp/Crtez 74.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 75",
-    "putanja": "images/crtezi/Crtez 75.jpg",
-    "original": "images/crtezi/Crtez 75.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 75.webp",
+    "original": "images/crtezi/webp/Crtez 75.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 76",
-    "putanja": "images/crtezi/Crtez 76.jpg",
-    "original": "images/crtezi/Crtez 76.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 76.webp",
+    "original": "images/crtezi/webp/Crtez 76.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 77",
-    "putanja": "images/crtezi/Crtez 77.jpg",
-    "original": "images/crtezi/Crtez 77.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 77.webp",
+    "original": "images/crtezi/webp/Crtez 77.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 8",
-    "putanja": "images/crtezi/Crtez 8.jpg",
-    "original": "images/crtezi/Crtez 8.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 8.webp",
+    "original": "images/crtezi/webp/Crtez 8.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Crtez 9",
-    "putanja": "images/crtezi/Crtez 9.jpg",
-    "original": "images/crtezi/Crtez 9.jpg",
+    "putanja": "images/crtezi/thumbnails/Crtez 9.webp",
+    "original": "images/crtezi/webp/Crtez 9.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 1",
-    "putanja": "images/crtezi/Tus 1.jpg",
-    "original": "images/crtezi/Tus 1.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 1.webp",
+    "original": "images/crtezi/webp/Tus 1.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 10",
-    "putanja": "images/crtezi/Tus 10.jpg",
-    "original": "images/crtezi/Tus 10.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 10.webp",
+    "original": "images/crtezi/webp/Tus 10.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 11",
-    "putanja": "images/crtezi/Tus 11.jpg",
-    "original": "images/crtezi/Tus 11.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 11.webp",
+    "original": "images/crtezi/webp/Tus 11.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 12",
-    "putanja": "images/crtezi/Tus 12.jpg",
-    "original": "images/crtezi/Tus 12.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 12.webp",
+    "original": "images/crtezi/webp/Tus 12.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 13",
-    "putanja": "images/crtezi/Tus 13.jpg",
-    "original": "images/crtezi/Tus 13.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 13.webp",
+    "original": "images/crtezi/webp/Tus 13.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 14",
-    "putanja": "images/crtezi/Tus 14.jpg",
-    "original": "images/crtezi/Tus 14.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 14.webp",
+    "original": "images/crtezi/webp/Tus 14.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 15",
-    "putanja": "images/crtezi/Tus 15.jpg",
-    "original": "images/crtezi/Tus 15.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 15.webp",
+    "original": "images/crtezi/webp/Tus 15.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 16",
-    "putanja": "images/crtezi/Tus 16.jpg",
-    "original": "images/crtezi/Tus 16.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 16.webp",
+    "original": "images/crtezi/webp/Tus 16.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 17",
-    "putanja": "images/crtezi/Tus 17.jpg",
-    "original": "images/crtezi/Tus 17.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 17.webp",
+    "original": "images/crtezi/webp/Tus 17.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 18",
-    "putanja": "images/crtezi/Tus 18.jpg",
-    "original": "images/crtezi/Tus 18.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 18.webp",
+    "original": "images/crtezi/webp/Tus 18.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 19",
-    "putanja": "images/crtezi/Tus 19.jpg",
-    "original": "images/crtezi/Tus 19.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 19.webp",
+    "original": "images/crtezi/webp/Tus 19.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 2",
-    "putanja": "images/crtezi/Tus 2.jpg",
-    "original": "images/crtezi/Tus 2.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 2.webp",
+    "original": "images/crtezi/webp/Tus 2.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 20",
-    "putanja": "images/crtezi/Tus 20.jpg",
-    "original": "images/crtezi/Tus 20.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 20.webp",
+    "original": "images/crtezi/webp/Tus 20.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 21",
-    "putanja": "images/crtezi/Tus 21.jpg",
-    "original": "images/crtezi/Tus 21.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 21.webp",
+    "original": "images/crtezi/webp/Tus 21.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 22",
-    "putanja": "images/crtezi/Tus 22.jpg",
-    "original": "images/crtezi/Tus 22.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 22.webp",
+    "original": "images/crtezi/webp/Tus 22.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 23",
-    "putanja": "images/crtezi/Tus 23.jpg",
-    "original": "images/crtezi/Tus 23.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 23.webp",
+    "original": "images/crtezi/webp/Tus 23.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 24",
-    "putanja": "images/crtezi/Tus 24.jpg",
-    "original": "images/crtezi/Tus 24.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 24.webp",
+    "original": "images/crtezi/webp/Tus 24.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 25",
-    "putanja": "images/crtezi/Tus 25.jpg",
-    "original": "images/crtezi/Tus 25.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 25.webp",
+    "original": "images/crtezi/webp/Tus 25.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 26",
-    "putanja": "images/crtezi/Tus 26.jpg",
-    "original": "images/crtezi/Tus 26.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 26.webp",
+    "original": "images/crtezi/webp/Tus 26.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 27",
-    "putanja": "images/crtezi/Tus 27.jpg",
-    "original": "images/crtezi/Tus 27.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 27.webp",
+    "original": "images/crtezi/webp/Tus 27.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 28",
-    "putanja": "images/crtezi/Tus 28.jpg",
-    "original": "images/crtezi/Tus 28.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 28.webp",
+    "original": "images/crtezi/webp/Tus 28.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 29",
-    "putanja": "images/crtezi/Tus 29.jpg",
-    "original": "images/crtezi/Tus 29.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 29.webp",
+    "original": "images/crtezi/webp/Tus 29.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 3",
-    "putanja": "images/crtezi/Tus 3.jpg",
-    "original": "images/crtezi/Tus 3.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 3.webp",
+    "original": "images/crtezi/webp/Tus 3.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 30",
-    "putanja": "images/crtezi/Tus 30.jpg",
-    "original": "images/crtezi/Tus 30.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 30.webp",
+    "original": "images/crtezi/webp/Tus 30.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 31",
-    "putanja": "images/crtezi/Tus 31.jpg",
-    "original": "images/crtezi/Tus 31.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 31.webp",
+    "original": "images/crtezi/webp/Tus 31.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 32",
-    "putanja": "images/crtezi/Tus 32.jpg",
-    "original": "images/crtezi/Tus 32.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 32.webp",
+    "original": "images/crtezi/webp/Tus 32.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 33",
-    "putanja": "images/crtezi/Tus 33.jpg",
-    "original": "images/crtezi/Tus 33.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 33.webp",
+    "original": "images/crtezi/webp/Tus 33.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 34",
-    "putanja": "images/crtezi/Tus 34.jpg",
-    "original": "images/crtezi/Tus 34.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 34.webp",
+    "original": "images/crtezi/webp/Tus 34.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 35",
-    "putanja": "images/crtezi/Tus 35.jpg",
-    "original": "images/crtezi/Tus 35.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 35.webp",
+    "original": "images/crtezi/webp/Tus 35.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 36",
-    "putanja": "images/crtezi/Tus 36.jpg",
-    "original": "images/crtezi/Tus 36.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 36.webp",
+    "original": "images/crtezi/webp/Tus 36.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 37",
-    "putanja": "images/crtezi/Tus 37.jpg",
-    "original": "images/crtezi/Tus 37.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 37.webp",
+    "original": "images/crtezi/webp/Tus 37.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 38",
-    "putanja": "images/crtezi/Tus 38.jpg",
-    "original": "images/crtezi/Tus 38.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 38.webp",
+    "original": "images/crtezi/webp/Tus 38.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 39",
-    "putanja": "images/crtezi/Tus 39.jpg",
-    "original": "images/crtezi/Tus 39.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 39.webp",
+    "original": "images/crtezi/webp/Tus 39.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 4",
-    "putanja": "images/crtezi/Tus 4.jpg",
-    "original": "images/crtezi/Tus 4.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 4.webp",
+    "original": "images/crtezi/webp/Tus 4.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 40",
-    "putanja": "images/crtezi/Tus 40.jpg",
-    "original": "images/crtezi/Tus 40.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 40.webp",
+    "original": "images/crtezi/webp/Tus 40.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 41",
-    "putanja": "images/crtezi/Tus 41.jpg",
-    "original": "images/crtezi/Tus 41.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 41.webp",
+    "original": "images/crtezi/webp/Tus 41.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 42",
-    "putanja": "images/crtezi/Tus 42.jpg",
-    "original": "images/crtezi/Tus 42.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 42.webp",
+    "original": "images/crtezi/webp/Tus 42.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 43",
-    "putanja": "images/crtezi/Tus 43.jpg",
-    "original": "images/crtezi/Tus 43.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 43.webp",
+    "original": "images/crtezi/webp/Tus 43.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 44",
-    "putanja": "images/crtezi/Tus 44.jpg",
-    "original": "images/crtezi/Tus 44.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 44.webp",
+    "original": "images/crtezi/webp/Tus 44.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 45",
-    "putanja": "images/crtezi/Tus 45.jpg",
-    "original": "images/crtezi/Tus 45.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 45.webp",
+    "original": "images/crtezi/webp/Tus 45.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 46",
-    "putanja": "images/crtezi/Tus 46.jpg",
-    "original": "images/crtezi/Tus 46.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 46.webp",
+    "original": "images/crtezi/webp/Tus 46.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 47",
-    "putanja": "images/crtezi/Tus 47.jpg",
-    "original": "images/crtezi/Tus 47.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 47.webp",
+    "original": "images/crtezi/webp/Tus 47.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 48",
-    "putanja": "images/crtezi/Tus 48.jpg",
-    "original": "images/crtezi/Tus 48.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 48.webp",
+    "original": "images/crtezi/webp/Tus 48.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 49",
-    "putanja": "images/crtezi/Tus 49.jpg",
-    "original": "images/crtezi/Tus 49.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 49.webp",
+    "original": "images/crtezi/webp/Tus 49.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 5",
-    "putanja": "images/crtezi/Tus 5.jpg",
-    "original": "images/crtezi/Tus 5.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 5.webp",
+    "original": "images/crtezi/webp/Tus 5.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 50",
-    "putanja": "images/crtezi/Tus 50.jpg",
-    "original": "images/crtezi/Tus 50.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 50.webp",
+    "original": "images/crtezi/webp/Tus 50.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 51",
-    "putanja": "images/crtezi/Tus 51.jpg",
-    "original": "images/crtezi/Tus 51.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 51.webp",
+    "original": "images/crtezi/webp/Tus 51.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 52",
-    "putanja": "images/crtezi/Tus 52.jpg",
-    "original": "images/crtezi/Tus 52.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 52.webp",
+    "original": "images/crtezi/webp/Tus 52.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 53",
-    "putanja": "images/crtezi/Tus 53.jpg",
-    "original": "images/crtezi/Tus 53.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 53.webp",
+    "original": "images/crtezi/webp/Tus 53.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 54",
-    "putanja": "images/crtezi/Tus 54.jpg",
-    "original": "images/crtezi/Tus 54.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 54.webp",
+    "original": "images/crtezi/webp/Tus 54.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 55",
-    "putanja": "images/crtezi/Tus 55.jpg",
-    "original": "images/crtezi/Tus 55.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 55.webp",
+    "original": "images/crtezi/webp/Tus 55.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 56",
-    "putanja": "images/crtezi/Tus 56.jpg",
-    "original": "images/crtezi/Tus 56.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 56.webp",
+    "original": "images/crtezi/webp/Tus 56.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 57",
-    "putanja": "images/crtezi/Tus 57.jpg",
-    "original": "images/crtezi/Tus 57.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 57.webp",
+    "original": "images/crtezi/webp/Tus 57.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 58",
-    "putanja": "images/crtezi/Tus 58.jpg",
-    "original": "images/crtezi/Tus 58.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 58.webp",
+    "original": "images/crtezi/webp/Tus 58.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 59",
-    "putanja": "images/crtezi/Tus 59.jpg",
-    "original": "images/crtezi/Tus 59.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 59.webp",
+    "original": "images/crtezi/webp/Tus 59.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 6",
-    "putanja": "images/crtezi/Tus 6.jpg",
-    "original": "images/crtezi/Tus 6.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 6.webp",
+    "original": "images/crtezi/webp/Tus 6.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 60",
-    "putanja": "images/crtezi/Tus 60.jpg",
-    "original": "images/crtezi/Tus 60.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 60.webp",
+    "original": "images/crtezi/webp/Tus 60.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 61",
-    "putanja": "images/crtezi/Tus 61.jpg",
-    "original": "images/crtezi/Tus 61.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 61.webp",
+    "original": "images/crtezi/webp/Tus 61.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 62",
-    "putanja": "images/crtezi/Tus 62.jpg",
-    "original": "images/crtezi/Tus 62.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 62.webp",
+    "original": "images/crtezi/webp/Tus 62.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 63",
-    "putanja": "images/crtezi/Tus 63.jpg",
-    "original": "images/crtezi/Tus 63.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 63.webp",
+    "original": "images/crtezi/webp/Tus 63.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 64",
-    "putanja": "images/crtezi/Tus 64.jpg",
-    "original": "images/crtezi/Tus 64.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 64.webp",
+    "original": "images/crtezi/webp/Tus 64.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 65",
-    "putanja": "images/crtezi/Tus 65.jpg",
-    "original": "images/crtezi/Tus 65.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 65.webp",
+    "original": "images/crtezi/webp/Tus 65.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 66",
-    "putanja": "images/crtezi/Tus 66.jpg",
-    "original": "images/crtezi/Tus 66.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 66.webp",
+    "original": "images/crtezi/webp/Tus 66.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 67",
-    "putanja": "images/crtezi/Tus 67.jpg",
-    "original": "images/crtezi/Tus 67.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 67.webp",
+    "original": "images/crtezi/webp/Tus 67.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 68",
-    "putanja": "images/crtezi/Tus 68.jpg",
-    "original": "images/crtezi/Tus 68.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 68.webp",
+    "original": "images/crtezi/webp/Tus 68.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 69",
-    "putanja": "images/crtezi/Tus 69.jpg",
-    "original": "images/crtezi/Tus 69.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 69.webp",
+    "original": "images/crtezi/webp/Tus 69.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 7",
-    "putanja": "images/crtezi/Tus 7.jpg",
-    "original": "images/crtezi/Tus 7.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 7.webp",
+    "original": "images/crtezi/webp/Tus 7.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 70",
-    "putanja": "images/crtezi/Tus 70.jpg",
-    "original": "images/crtezi/Tus 70.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 70.webp",
+    "original": "images/crtezi/webp/Tus 70.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 71",
-    "putanja": "images/crtezi/Tus 71.jpg",
-    "original": "images/crtezi/Tus 71.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 71.webp",
+    "original": "images/crtezi/webp/Tus 71.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 8",
-    "putanja": "images/crtezi/Tus 8.jpg",
-    "original": "images/crtezi/Tus 8.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 8.webp",
+    "original": "images/crtezi/webp/Tus 8.webp",
     "kat": "crtezi"
   },
   {
     "naziv": "Tus 9",
-    "putanja": "images/crtezi/Tus 9.jpg",
-    "original": "images/crtezi/Tus 9.jpg",
+    "putanja": "images/crtezi/thumbnails/Tus 9.webp",
+    "original": "images/crtezi/webp/Tus 9.webp",
     "kat": "crtezi"
   }
 ]
