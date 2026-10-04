@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Editor redoslijeda radova</title>
+<style>
+  :root {
+    --bg: #0c0a0a; --panel: #151212; --line: #2a2222;
+    --red: #b3262b; --text: #d8d2d2; --muted: #7d7474;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, sans-serif; }
+
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--panel); border-bottom: 1px solid var(--line);
+    padding: 12px 20px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+  }
+  h1 { font-size: 1rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--red); margin: 0 12px 0 0; }
+  .tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+  button {
+    background: transparent; color: var(--text); border: 1px solid var(--line);
+    padding: 7px 14px; border-radius: 3px; cursor: pointer; font-size: .85rem;
+  }
+  button:hover { border-color: var(--red); }
+  button.on { background: var(--red); border-color: var(--red); color: #fff; }
+  button:disabled { opacity: .35; cursor: default; border-color: var(--line); }
+  .spacer { flex: 1; }
+  #status { font-size: .8rem; color: var(--muted); }
+  #status.dirty { color: #e0a030; }
+  .primary { background: var(--red); border-color: var(--red); color: #fff; }
+
+  .hint { padding: 10px 20px; font-size: .8rem; color: var(--muted); border-bottom: 1px solid var(--line); }
+
+  #grid {
+    display: grid; gap: 10px; padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+  .card {
+    position: relative; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 3px; cursor: grab; user-select: none;
+  }
+  .card img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; pointer-events: none; background: #000; }
+  .card .meta { padding: 6px 8px; font-size: .72rem; display: flex; justify-content: space-between; gap: 6px; color: var(--muted); }
+  .card .meta b { color: var(--text); font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .card .num {
+    position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,.75);
+    color: #fff; font-size: .72rem; padding: 2px 7px; border-radius: 10px;
+  }
+  .card .tools { position: absolute; top: 6px; right: 6px; display: none; gap: 4px; }
+  .card:hover .tools { display: flex; }
+  .card .tools button { padding: 2px 7px; background: rgba(0,0,0,.8); font-size: .8rem; }
+  .card.dragging { opacity: .35; }
+  .card.drop-before { box-shadow: -5px 0 0 var(--red); }
+  .card.drop-after  { box-shadow:  5px 0 0 var(--red); }
+
+  #empty { padding: 60px 20px; text-align: center; color: var(--muted); }
+  #empty p { max-width: 520px; margin: 10px auto; line-height: 1.6; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Redoslijed radova</h1>
+  <div class="tabs" id="tabs"></div>
+  <span class="spacer"></span>
+  <span id="status">—</span>
+  <button id="btnUndo" disabled>↶ Poništi</button>
+  <button id="btnReset" disabled>Vrati originalni</button>
+  <button id="btnSave" class="primary" disabled>Sačuvaj galerija.json</button>
+</header>
+
+<div class="hint">
+  Povuci sliku i pusti je na mjesto gdje je želiš. Označeni tab (npr. <b>grafika</b>) mijenja samo redoslijed unutar te kategorije.
+  Na slici su i dugmad ⇤ ⇥ (na početak / na kraj).
+</div>
+
+<div id="empty" hidden></div>
+<div id="grid"></div>
+
+<input type="file" id="filePick" accept=".json,application/json" hidden />
+
+<script>
+let original = [];     // redoslijed kako je učitan
+let items = [];        // trenutni redoslijed (isti objekti kao u JSON-u)
+let undoStack = [];
+let activeCat = 'sve';
+let dragged = null;
+let fileHandle = null; // ako browser dozvoljava direktno snimanje
+
+const $ = id => document.getElementById(id);
+
+// ---------- učitavanje ----------
+async function load() {
+  try {
+    const res = await fetch('galerija.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(res.status);
+    setData(await res.json());
+  } catch (e) {
+    showEmpty();
+  }
+}
+
+function showEmpty() {
+  const el = $('empty');
+  el.hidden = false;
+  el.innerHTML = `
+    <p><b>Ne mogu automatski učitati galerija.json.</b></p>
+    <p>Ako si otvorio editor dvoklikom (file://), browser to blokira. Ili pokreni lokalni server u folderu sajta:<br>
+       <code>python3 -m http.server 8000</code> pa otvori <code>http://localhost:8000/editor.html</code>,<br>
+       ili samo ručno odaberi fajl:</p>
+    <p><button class="primary" id="btnOpen">Odaberi galerija.json</button></p>`;
+  $('btnOpen').onclick = openFile;
+}
+
+async function openFile() {
+  if (window.showOpenFilePicker) {
+    try {
+      const [h] = await showOpenFilePicker({ types: [{ accept: { 'application/json': ['.json'] } }] });
+      fileHandle = h;
+      setData(JSON.parse(await (await h.getFile()).text()));
+    } catch (e) { /* otkazano */ }
+  } else {
+    $('filePick').click();
+  }
+}
+$('filePick').onchange = async e => {
+  const f = e.target.files[0];
+  if (f) setData(JSON.parse(await f.text()));
+};
+
+function setData(data) {
+  if (!Array.isArray(data)) { alert('galerija.json nije lista slika.'); return; }
+  items = data.slice();
+  original = data.slice();
+  undoStack = [];
+  $('empty').hidden = true;
+  render();
+}
+
+// ---------- prikaz ----------
+function categories() {
+  return [...new Set(items.map(i => i.kat).filter(Boolean))];
+}
+
+function matches(it) { return activeCat === 'sve' || it.kat === activeCat; }
+
+function render() {
+  // tabovi
+  const tabs = $('tabs');
+  tabs.innerHTML = '';
+  ['sve', ...categories()].forEach(k => {
+    const b = document.createElement('button');
+    const n = k === 'sve' ? items.length : items.filter(i => i.kat === k).length;
+    b.textContent = `${k} (${n})`;
+    if (k === activeCat) b.classList.add('on');
+    b.onclick = () => { activeCat = k; render(); };
+    tabs.appendChild(b);
+  });
+
+  // kartice
+  const grid = $('grid');
+  grid.innerHTML = '';
+  items.filter(matches).forEach((it, i) => grid.appendChild(makeCard(it, i + 1)));
+
+  updateStatus();
+}
+
+function thumbOf(it) {
+  return (it.putanja || '').replace('/webp/', '/thumbnails/');
+}
+
+function makeCard(it, pos) {
+  const c = document.createElement('div');
+  c.className = 'card';
+  c.draggable = true;
+
+  const img = document.createElement('img');
+  img.loading = 'lazy';
+  img.src = thumbOf(it);
+  img.onerror = () => { if (img.src.indexOf(it.putanja) === -1) img.src = it.putanja; };
+  c.appendChild(img);
+
+  c.insertAdjacentHTML('beforeend', `
+    <span class="num">${pos}</span>
+    <div class="tools">
+      <button title="Na početak">⇤</button>
+      <button title="Na kraj">⇥</button>
+    </div>
+    <div class="meta"><b>${esc(it.naziv || '')}</b><span>${esc(it.kat || '')}</span></div>`);
+
+  const [bFirst, bLast] = c.querySelectorAll('.tools button');
+  bFirst.onclick = e => { e.stopPropagation(); moveToEdge(it, true); };
+  bLast.onclick  = e => { e.stopPropagation(); moveToEdge(it, false); };
+
+  // drag & drop
+  c.addEventListener('dragstart', e => {
+    dragged = it;
+    c.classList.add('dragging');
+    e.dataTransfer.effectAllowed = 'move';
+    e.dataTransfer.setData('text/plain', it.putanja || '');
+  });
+  c.addEventListener('dragend', () => { dragged = null; clearMarks(); c.classList.remove('dragging'); });
+  c.addEventListener('dragover', e => {
+    if (!dragged || dragged === it) return;
+    e.preventDefault();
+    clearMarks();
+    c.classList.add(isAfter(e, c) ? 'drop-after' : 'drop-before');
+  });
+  c.addEventListener('drop', e => {
+    e.preventDefault();
+    if (!dragged || dragged === it) return;
+    const after = isAfter(e, c);
+    clearMarks();
+    reorder(dragged, it, after);
+  });
+  return c;
+}
+
+function isAfter(e, card) {
+  const r = card.getBoundingClientRect();
+  return e.clientX > r.left + r.width / 2;
+}
+function clearMarks() {
+  document.querySelectorAll('.drop-before,.drop-after').forEach(el => el.classList.remove('drop-before', 'drop-after'));
+}
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
+}
+
+// ---------- promjena redoslijeda ----------
+// Mijenja redoslijed samo među slikama koje su trenutno vidljive (tab),
+// a ostale slike ostaju tačno na svojim mjestima.
+function applyVisibleOrder(newVisible) {
+  const slots = [];
+  items.forEach((it, i) => { if (matches(it)) slots.push(i); });
+  const next = items.slice();
+  slots.forEach((slot, k) => { next[slot] = newVisible[k]; });
+  undoStack.push(items.slice());
+  items = next;
+  render();
+}
+
+function reorder(moved, target, after) {
+  const vis = items.filter(matches).filter(i => i !== moved);
+  const at = vis.indexOf(target) + (after ? 1 : 0);
+  vis.splice(at, 0, moved);
+  applyVisibleOrder(vis);
+}
+
+function moveToEdge(it, toStart) {
+  const vis = items.filter(matches).filter(i => i !== it);
+  toStart ? vis.unshift(it) : vis.push(it);
+  applyVisibleOrder(vis);
+}
+
+// ---------- undo / reset ----------
+function undo() {
+  if (!undoStack.length) return;
+  items = undoStack.pop();
+  render();
+}
+$('btnUndo').onclick = undo;
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'z') { e.preventDefault(); undo(); }
+});
+$('btnReset').onclick = () => {
+  if (!confirm('Vratiti redoslijed na onaj kakav je bio pri učitavanju?')) return;
+  undoStack.push(items.slice());
+  items = original.slice();
+  render();
+};
+
+// ---------- stanje / snimanje ----------
+function isDirty() {
+  return items.some((it, i) => it !== original[i]);
+}
+function updateStatus() {
+  const d = isDirty();
+  const s = $('status');
+  s.textContent = d ? 'Nesačuvane promjene' : 'Sve sačuvano';
+  s.classList.toggle('dirty', d);
+  $('btnSave').disabled = !items.length;
+  $('btnUndo').disabled = !undoStack.length;
+  $('btnReset').disabled = !d;
+}
+window.addEventListener('beforeunload', e => { if (isDirty()) { e.preventDefault(); e.returnValue = ''; } });
+
+$('btnSave').onclick = async () => {
+  const text = JSON.stringify(items, null, 2) + '\n';
+  try {
+    // Chrome/Edge/Chromium: snimi direktno preko postojećeg fajla
+    if (window.showSaveFilePicker) {
+      if (!fileHandle) {
+        fileHandle = await showSaveFilePicker({
+          suggestedName: 'galerija.json',
+          types: [{ accept: { 'application/json': ['.json'] } }]
+        });
+      }
+      const w = await fileHandle.createWritable();
+      await w.write(text);
+      await w.close();
+    } else {
+      // Firefox i ostali: preuzmi fajl pa ga zamijeni u folderu sajta
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+      a.download = 'galerija.json';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    }
+    original = items.slice();
+    undoStack = [];
+    updateStatus();
+  } catch (e) {
+    if (e.name !== 'AbortError') alert('Snimanje nije uspjelo: ' + e.message);
+  }
+};
+
+load();
+</script>
+</body>
+</html>
